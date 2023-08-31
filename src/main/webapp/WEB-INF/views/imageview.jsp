@@ -20,9 +20,10 @@
 </head>
 
 <body>
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="file"><br>
-        <input type="submit" value="전송">
-    </form>
+직접걷으로 이미지를 지정하고 변경 불가능 회사로고등 웹상에서 변경없는 이미지 사용<br>
+<img src="/images/photo.jpg" width="300" height="300" alt="이미지가 없습니다"/><br>
+<img src="/images/s.jpg" width="300" height="300" /><br>
+상품등 각 데이터별로 이미지를 변경해서 사용<br>
+<img src="/images/${file}" width="300" height="300" alt="파일이없습니다"/>
 </body>
 </html>
